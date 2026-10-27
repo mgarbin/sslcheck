@@ -1,0 +1,3 @@
+# sslcheck.py needs Python >= 3.9; everything else is the standard library.
+# >= 42.0: x509.verification (PolicyBuilder/Store) and Certificate.not_valid_before_utc / not_valid_after_utc
+cryptography>=42.0.0
